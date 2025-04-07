@@ -36,18 +36,19 @@ TODO: fill in anchor href above to point to github repo for these slides
 transition: slide-left
 ---
 
-# Git
-(10 min) Install git; Create a local repo and commit changes
+# Intro to Git
+(10 min) 
 
-- What are some challenges of managing code without version control?
-   - Ever lost code or overwritten files accidentally?
-- How does VCS help in tracking changes and collaborating?
+- **Have you ever lost work or accidentally overwritten a file (especially in a group project)?**
+   - How did you keep track of changes in your group project?
 - Git is a distributed version control system (VCS)
    - Distributed: everyone can have a local copy of the repository
+   - Differs from centralized VCS like SVN
 - What are benefits of using git?
-   - Manage changes to source code over time, allows branching
-   - Prevents losing work, tracks changes, enables collaboration
-   - [Configure](https://www.freecodecamp.org/news/guide-to-git-github-for-beginners-and-experienced-devs#how-to-configure-git) global settings: username and email
+   - resolves issues like overwriting files, or losing changes
+   - manages changes to source code over time, enables collaboration
+   - manages different version of a project through branching and merging
+- Setting up Git for [first time](https://www.freecodecamp.org/news/learn-git-basics/#heading-how-to-configure-your-identity-in-git)
 
 <!--
 -->
@@ -56,17 +57,20 @@ transition: slide-left
 transition: slide-left
 ---
 
-# Exercise: Initializing a Repository
-(30 min) 
+# Exercise: Create repo, stage and commit changes
+(20 min) Install VS Code extension "Git Graph" to help us visualize what's happening
 
-- Create a new project using a simple index.html and index.js
-- Demo `git`:  `init` `add` `commit` `status` `log` (`push` `pull` to/from GitHub)
-- Note: `.git` `.gitignore`
-1. make a change in index.html, save - what happens?
-1. stage > commit > push 
-
-- Oops! How can I get back to a previous commit?
-- Oops again! How can I go forward to the most recent commit?
+1. Create a New Project Directory `mkdir my_proj` and navigate into it `cd my_proj` 
+1. Initialize Git via `git init`
+1. Create a simple index.html file: `<p>Once upon a time...</p>`
+1. Run `git status` - What 4 pieces of info does it give?
+1. To track/stage changes: `git add index.html` - How does `git status` compare now?
+1. Commit changes: `git commit -m "add intro to fairy tale"`
+   - How does `git status` compare now?
+1. To view commit history, run `git log`
+   - How does what `git log` outputs compare to when you `Cmd + Shift + P` and search/select "Git Graph: View Git Graph" 
+   - (To quit the terminal screen, you may have to press 'q')
+1. Discuss: What does `git add` and `git commit` do?
 
 <!--
 -->
@@ -76,14 +80,21 @@ transition: slide-left
 ---
 
 # Git Branching and Merging
-(30 min) What are branches? Why do we use them?
-
-- Demo `git`:  `branch` `checkout` `switch` `merge`
-1. Create a new branch `git branch feature/ticket01/add-user-auth`
-1. Switch to the new branch `git checkout feature/ticket01/add-user-auth` or use `switch`
-1. Make changes and commit on that branch
-1. Switch back to main branch `git checkout main` or `git switch main`
-1. Merge changes `git merge feature/ticket01/add-user-auth`
+(20 min) Make sure to run `git status` after each step to help visualize what's happening
+ 
+1. Create a branch `git branch add-chapter-2`
+1. Switch to the newly created branch `git checkout add-chapter-2` or `git switch add-chapter-2`
+1. Edit `index.html` by adding more to "Once upon a time..." and save it.
+1. At this point even though we could `git add .` or `git add index.html`, run `git add -p`
+   - What info is git conveying? What do those different options mean after "Stage this hunk"?
+   - Go ahead and press `y` then press enter, to stage our change 
+1. Go ahead and commit our staged change `git commit -m "add next sentence"`
+1. (Confirm index.html does indeed contain your latest change before moving onto next step)
+1. Switch back to the main branch `git checkout main` or `git switch main`
+   - Does index.html still contain your changes? 
+1. `git branch -a` shows a listing of all branches; Do you see your branch there?
+1. Let's merge that branch now via `git merge chapter-2`
+1. Discuss: What happened when the feature branch was merged? Why is branching important?
 
 <!--
 -->
@@ -153,5 +164,5 @@ transition: slide-left
 
 # Homework
 
+- Assignment 2 due Apr. 13 Midnight EST
 - Play [Learn Git Branching](https://learngitbranching.js.org/)
-- [Learn Git Basics](https://www.freecodecamp.org/news/learn-git-basics/)
