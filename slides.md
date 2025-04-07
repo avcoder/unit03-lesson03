@@ -46,7 +46,7 @@ transition: slide-left
    - Differs from centralized VCS like SVN
 - What are benefits of using git?
    - resolves issues like overwriting files, or losing changes
-   - manages changes to source code over time, enables collaboration
+   - manages changes to source code over time
    - manages different version of a project through branching and merging
 - Setting up Git for [first time](https://www.freecodecamp.org/news/learn-git-basics/#heading-how-to-configure-your-identity-in-git)
 
@@ -116,6 +116,7 @@ class: text-left
 - 📈 [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
 - 🎲 [Git Cheat sheet](https://github.com/arslanbilal/git-cheat-sheet)
 - 🎒 [Github Student Dev Pack](https://education.github.com/pack)
+- 🧑‍💻 [Hacktoberfest Beginner Resources](https://hacktoberfest.com/participation/#beginner-resources)
 
 <br>
 <hr>
@@ -133,15 +134,16 @@ transition: slide-left
 ---
 
 # GitHub
-(40 min) Fork a repo, create a pull request
+(5 min) GitHub as a platform for hosting Git repositories
 
-- GitHub is a platform for hosting git repositories allowing social collaboration
-- ChatGPT: List popular open-source projects on GitHub that a beginner web developer might recognize regarding javascript, node, or css frameworks
-
-- Exercises: 
-   - Create a remote repository on GitHub
-   - Link an already existing local repository to GitHub
-   - Fork my "MadLibs" repo, clone it, make a change, and create a PR (Pull Request)
+- GitHub is a platform for hosting git repositories.  It allows:
+   - [collaboration](https://github.com/facebook/react/pull/32813)
+   - [track issues](https://github.com/facebook/react/issues)
+   - contribute to [open-source software](https://www.freecodecamp.org/news/how-to-contribute-to-open-source-handbook/)
+- Ask ChatGPT: 
+   - List 10 popular open-source projects on GitHub
+   - List 10 of the most popular GitHub repositories
+- Check: Ensure you have a GitHub account
 
 <!--
 -->
