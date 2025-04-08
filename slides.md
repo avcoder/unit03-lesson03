@@ -58,7 +58,7 @@ transition: slide-left
 ---
 
 # Exercise: Create repo, stage and commit changes
-(20 min) Install VS Code extension "Git Graph" to help us visualize what's happening
+(30 min) Feel free to try 3 ways: terminal command, VS Code, GitHub Desktop
 
 1. Create a New Project Directory `mkdir my_proj` and navigate into it `cd my_proj` 
 1. Initialize Git via `git init`
@@ -68,7 +68,6 @@ transition: slide-left
 1. Commit changes: `git commit -m "add intro to fairy tale"`
    - How does `git status` compare now?
 1. To view commit history, run `git log`
-   - How does what `git log` outputs compare to when you `Cmd + Shift + P` and search/select "Git Graph: View Git Graph" 
    - (To quit the terminal screen, you may have to press 'q')
 1. Discuss: What does `git add` and `git commit` do?
 
@@ -80,7 +79,7 @@ transition: slide-left
 ---
 
 # Exercise: Git Branching and Merging
-(20 min) Make sure to run `git status` after each step to help visualize what's happening
+(30 min) Make sure to run `git status` after each step to help visualize what's happening
  
 1. Create a branch `git branch add-chapter-2`
 1. Switch to the newly created branch `git checkout add-chapter-2` or `git switch add-chapter-2`
