@@ -153,7 +153,7 @@ transition: slide-left
 ---
 
 # Exercise
-Build a multi-page website collaboratively. Run `git status` after each step to help visually know
+(30 mins) Build a multi-page website collaboratively. Run `git status` after each step to help visually know
 
 - Goto: [collaborative-website](https://github.com/avcoder/collaborative-website)
 - in upper right corner, click "Fork" to fork the repo -- this makes a copy to your GH
@@ -171,14 +171,12 @@ transition: slide-left
 ---
 
 # Exercise: Review and Merging PRs
-Continuing building a multi-page website collaboratively.
+(remainder of time) Continuing building a multi-page website collaboratively.
 
 - Let's review each PR (check for any merge conflicts, naming oddities, etc)
 - Discuss any improvements or suggestions
 - I will merge each PR into my main branch of the repo 
-- Check production website to test if new changes works
-
-- View changes on production site: https://story123.netlify.app/
+- Check production website aka [prod](https://story123.netlify.app/) to test if new changes works
 
 
 ---
