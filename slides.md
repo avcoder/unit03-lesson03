@@ -79,7 +79,7 @@ transition: slide-left
 transition: slide-left
 ---
 
-# Git Branching and Merging
+# Exercise: Git Branching and Merging
 (20 min) Make sure to run `git status` after each step to help visualize what's happening
  
 1. Create a branch `git branch add-chapter-2`
@@ -153,12 +153,33 @@ transition: slide-left
 ---
 
 # Exercise
-Build a multi-page website collaboratively.
+Build a multi-page website collaboratively. Run `git status` after each step to help visually know
 
-- Fork and clone my GitHub repo [collaborative-website](https://github.com/avcoder/collaborative-website/tree/main)
-- Add to the story.  Put your name in the caption.
-- Commit and create a PR, and I will merge your pull request
+- Goto: [collaborative-website](https://github.com/avcoder/collaborative-website)
+- in upper right corner, click "Fork" to fork the repo -- this makes a copy to your GH
+- Download a copy to your computer: `git clone [insert url of your forked repo]`
+- Create a branch `git checkout -b student1` or `git branch student1`
+- Add your new HTML page (create your own story similar to index.html)
+- Update the index.html to link to your new html page, (ensure it works locally)
+- Commit your changes via `git add .` and `git commit -m "add student1 story"
+- Push your changes to your forked repo on GH `git push origin student1`
+- Create a Pull Request (PR): Go to your GitHub forked repo and create a PR from your branch (student1) to the main repo (collaborative-website)
 - View changes on production site: https://story123.netlify.app/
+
+---
+transition: slide-left
+---
+
+# Exercise: Review and Merging PRs
+Continuing building a multi-page website collaboratively.
+
+- Let's review each PR (check for any merge conflicts, naming oddities, etc)
+- Discuss any improvements or suggestions
+- I will merge each PR into my main branch of the repo 
+- Check production website to test if new changes works
+
+- View changes on production site: https://story123.netlify.app/
+
 
 ---
 transition: slide-left
