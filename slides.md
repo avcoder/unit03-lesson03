@@ -156,7 +156,7 @@ transition: slide-left
 (30 mins) Build a multi-page website collaboratively. Run `git status` after each step to help visually know
 
 - Goto: [collaborative-website](https://github.com/avcoder/collaborative-website)
-- in upper right corner, click "Fork" to fork the repo -- this makes a copy to your GH
+- in upper right corner, click "Fork" -- verify this makes a copy to your GH account
 - Download a copy to your computer: `git clone [insert url of your forked repo]`
 - Go into that folder `cd [whatever was cloned]`
 - Create a branch and switch into it `git checkout -b student1` (or `git branch student1` then `git switch student1`)
