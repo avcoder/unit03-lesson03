@@ -158,13 +158,13 @@ transition: slide-left
 - Goto: [collaborative-website](https://github.com/avcoder/collaborative-website)
 - in upper right corner, click "Fork" to fork the repo -- this makes a copy to your GH
 - Download a copy to your computer: `git clone [insert url of your forked repo]`
-- Create a branch `git checkout -b student1` or `git branch student1`
+- Go into that folder `cd [whatever was cloned]`
+- Create a branch and switch into it `git checkout -b student1` (or `git branch student1` then `git switch student1`)
 - Add your new HTML page (create your own story similar to index.html)
 - Update the index.html to link to your new html page, (ensure it works locally)
 - Commit your changes via `git add .` and `git commit -m "add student1 story"
 - Push your changes to your forked repo on GH `git push origin student1`
 - Create a Pull Request (PR): Go to your GitHub forked repo and create a PR from your branch (student1) to the main repo (collaborative-website)
-- View changes on production site: https://story123.netlify.app/
 
 ---
 transition: slide-left
