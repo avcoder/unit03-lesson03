@@ -115,7 +115,8 @@ class: text-left
 - 📈 [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
 - 🎲 [Git Cheat sheet](https://github.com/arslanbilal/git-cheat-sheet)
 - 🎒 [Github Student Dev Pack](https://education.github.com/pack)
-- ⚙︎ [How to make your first pull request on GitHub](https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3/)
+- ⚙︎ [How to make a pull request on GitHub](https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3/)
+- 🎭 [avataars generator](https://getavataaars.com/)
 - 🧑‍💻 [Hacktoberfest Beginner Resources](https://hacktoberfest.com/participation/#beginner-resources)
 
 <br>
