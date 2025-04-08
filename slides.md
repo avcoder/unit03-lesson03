@@ -116,6 +116,7 @@ class: text-left
 - 📈 [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
 - 🎲 [Git Cheat sheet](https://github.com/arslanbilal/git-cheat-sheet)
 - 🎒 [Github Student Dev Pack](https://education.github.com/pack)
+- ⚙︎ [How to make your first pull request on GitHub](https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3/)
 - 🧑‍💻 [Hacktoberfest Beginner Resources](https://hacktoberfest.com/participation/#beginner-resources)
 
 <br>
@@ -164,7 +165,7 @@ transition: slide-left
 - Update the index.html to link to your new html page, (ensure it works locally)
 - Commit your changes via `git add .` and `git commit -m "add student1 story"`
 - Push your changes to your forked repo on GH `git push origin student1`
-- Create a Pull Request (PR): Go to your GitHub forked repo and create a PR from your branch (student1) to the main repo (collaborative-website)
+- Create a Pull Request (PR): on GH click button "Compare & pull request" > click button "Create pull request"
 
 ---
 transition: slide-left
