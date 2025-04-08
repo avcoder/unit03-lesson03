@@ -162,7 +162,7 @@ transition: slide-left
 - Create a branch and switch into it `git checkout -b student1` (or `git branch student1` then `git switch student1`)
 - Add your new HTML page (create your own story similar to index.html)
 - Update the index.html to link to your new html page, (ensure it works locally)
-- Commit your changes via `git add .` and `git commit -m "add student1 story"
+- Commit your changes via `git add .` and `git commit -m "add student1 story"`
 - Push your changes to your forked repo on GH `git push origin student1`
 - Create a Pull Request (PR): Go to your GitHub forked repo and create a PR from your branch (student1) to the main repo (collaborative-website)
 
