@@ -171,9 +171,9 @@ transition: slide-left
 ---
 
 # Exercise: Review and Merging PRs
-(remainder of time) Continuing building a multi-page website collaboratively.
+(remainder of time) 
 
-- Let's review each PR (check for any merge conflicts, naming oddities, etc)
+- Together, let's review each PR (check for any merge conflicts, naming oddities, etc)
 - Discuss any improvements or suggestions
 - I will merge each PR into my main branch of the repo 
 - Check production website aka [prod](https://story123.netlify.app/) to test if new changes works
